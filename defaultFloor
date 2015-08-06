@@ -1,0 +1,15 @@
+
+public class defaultFloor implements Floor{
+
+	int currentFloor;
+	@Override
+	public void callLift(Lift lift,int currentFloor) {
+		lift.currentFloor = currentFloor;
+	}
+	@Override
+	public int getCurrentFloor() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
