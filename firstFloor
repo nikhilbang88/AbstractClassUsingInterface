@@ -1,0 +1,17 @@
+public class firstFloor implements Floor {
+
+	defaultFloor def = new defaultFloor();
+	public int currentFloor=1;
+
+	@Override
+	public void callLift(Lift lift,int currentFloor) {
+		def.callLift(lift,currentFloor);
+	}
+
+	@Override
+	public int getCurrentFloor() {
+		// TODO Auto-generated method stub
+		return currentFloor;
+	}
+
+}
