@@ -1,0 +1,7 @@
+
+public interface Floor {
+
+	void callLift(Lift lift,int currentFloor);
+	int getCurrentFloor();
+
+}
