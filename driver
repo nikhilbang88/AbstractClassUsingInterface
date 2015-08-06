@@ -1,0 +1,13 @@
+public class driver {
+	public static void main(String[] agrs) {
+		Floor myFloor = new firstFloor();
+		Lift lift = new Lift();
+		myFloor.callLift(lift, myFloor.getCurrentFloor());
+		System.out.println(lift.currentFloor);
+		myFloor = new secondFloor();
+		myFloor.callLift(lift, myFloor.getCurrentFloor());
+		System.out.println(lift.currentFloor);
+
+	}
+
+}
